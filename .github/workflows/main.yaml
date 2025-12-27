@@ -19,4 +19,4 @@ jobs:
             keep-outputs = true
       -
         name: Build Docker image
-        run: nix build .#dockerImage -L
+        run: nix build .#myapp -L
